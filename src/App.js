@@ -49,7 +49,11 @@ class App extends Component {
           display: false
       }],
       yAxes: [{
-          display: false
+          display: false,
+          ticks: {
+            min: 0,
+            max: 20
+          }
       }]
     }
   }
