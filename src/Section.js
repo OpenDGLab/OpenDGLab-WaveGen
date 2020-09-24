@@ -61,6 +61,7 @@ class Section extends Component {
     onAddPulseTime() {
         if (this.state.c < 20) {
             window.wavegen['c' + this.props.section] = this.state.c + 1
+            window.wavegen['point' + (this.props.section + 1)][this.state.c] = 20
             this.setState({c: this.state.c + 1})
             fireWaveChange()
         }
@@ -68,7 +69,9 @@ class Section extends Component {
     onMinusPulseTime = this.onMinusPulseTime.bind(this);
     onMinusPulseTime() {
         if (this.state.c > 2) {
+            console.log(this.state.c)
             window.wavegen['c' + this.props.section] = this.state.c - 1
+            delete window.wavegen['point' + (this.props.section + 1)][this.state.c - 1]
             this.setState({c: this.state.c - 1})
             fireWaveChange()
         }
