@@ -1,0 +1,113 @@
+@import '~@alifd/next/dist/next.css';
+
+body {
+  background-color: black;
+}
+.main-container {
+  transition: filter 1s;
+}
+.main-container[unresolved] {
+  filter: blur(10px);
+}
+.status-icon[unresolved] {
+  opacity: 1;
+}
+.status-icon {
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: opacity .5s;
+    user-select: none;
+}
+.size-50vh {
+  height: 50vh;
+}
+.main-color {
+  color: #FFE99D;
+}
+.next-range .next-range-selected {
+  background-color: #FFE99D;
+}
+.white-color {
+  color: #ffffff;
+}
+.subtitle-font {
+  font-size: 24px;
+}
+.next-card {
+  margin: 6px;
+  background-color: black;
+  border-color: #FFE99D;
+}
+.main-padding {
+  padding: 24px;
+}
+.next-card-header {
+  background-color: black;
+}
+.next-card-header-title {
+  color: #FFE99D;
+}
+.next-input {
+  background-color: black;
+  color: white;
+}
+.next-input:hover {
+  background-color: #111111;
+}
+input::selection {
+  background-color: #111111;
+}
+input:focus {
+  background-color: #111111;
+}
+input:visited {
+  background-color: #111111;
+}
+input {
+  color: white !important;
+}
+.odg-btn {
+  color: white !important;
+  background-color: #111111 !important;
+  border-color: #FFE99D !important;
+}
+.next-menu-item.next-select-menu-item {
+  background-color: #111111 !important;
+}
+.next-focused.next-menu-item.next-select-menu-item {
+  background-color: #333333 !important;
+}
+.next-menu {
+  background-color: #111111 !important;
+}
+.next-menu-item-text {
+  color: white !important;
+}
+.next-input.next-medium.next-select-inner {
+  color: white !important;
+}
+.next-switch-on:focus, .next-switch-on:hover {
+  background-color: #FFE99D;
+  color: black;
+}
+.next-switch-on {
+  background-color: #FFE99D;
+}
+.next-switch-on > .next-switch-children {
+  color: black;
+}
+.next-range .next-range-selected:hover {
+  background-color: #FFE99D;
+}
+.odg-btn {
+  background-color: #FFE99D;
+}

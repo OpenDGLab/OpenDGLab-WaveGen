@@ -1,0 +1,32 @@
+image: "node:12"
+
+stages:
+  - build
+  - deploy
+
+before_script:
+  - npm install
+
+cache:
+  paths:
+    - node_modules/
+
+build:
+  stage: build
+  script:
+    - npm run build
+    - mkdir gl-pages/ || true
+    - mv build/* gl-pages/
+  artifacts:
+    paths:
+      - gl-pages
+  rules:
+    - if: $CI_COMMIT_BRANCH == "master"
+
+pages:
+  stage: deploy
+  script:
+    - mv build/* public/
+  artifacts:
+    paths:
+      - public
