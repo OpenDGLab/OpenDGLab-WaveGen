@@ -111,3 +111,9 @@ input {
 .odg-btn {
   background-color: #FFE99D;
 }
+.next-input.next-medium.next-select-inner, .next-menu-item-text:focus {
+  background-color: black;
+}
+.next-input-group>.next-input:first-child.next-large, .next-input-group>.next-input:first-child.next-medium, .next-input-group>.next-input:first-child.next-small:focus {
+  background-color: black;
+}
