@@ -26,7 +26,7 @@ build:
 pages:
   stage: deploy
   script:
-    - mv build/* public/
+    - mv gl-pages/* public/
   artifacts:
     paths:
       - public
