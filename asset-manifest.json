@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/opendglab-wavegen/static/css/main.23608bf0.chunk.css",
+    "main.js": "/opendglab-wavegen/static/js/main.f8fb8274.chunk.js",
+    "main.js.map": "/opendglab-wavegen/static/js/main.f8fb8274.chunk.js.map",
+    "runtime-main.js": "/opendglab-wavegen/static/js/runtime-main.358ad615.js",
+    "runtime-main.js.map": "/opendglab-wavegen/static/js/runtime-main.358ad615.js.map",
+    "static/css/2.8edf6c5a.chunk.css": "/opendglab-wavegen/static/css/2.8edf6c5a.chunk.css",
+    "static/js/2.d9dab9ab.chunk.js": "/opendglab-wavegen/static/js/2.d9dab9ab.chunk.js",
+    "static/js/2.d9dab9ab.chunk.js.map": "/opendglab-wavegen/static/js/2.d9dab9ab.chunk.js.map",
+    "index.html": "/opendglab-wavegen/index.html",
+    "precache-manifest.553cf5894404aeb4e467e33930748fb7.js": "/opendglab-wavegen/precache-manifest.553cf5894404aeb4e467e33930748fb7.js",
+    "service-worker.js": "/opendglab-wavegen/service-worker.js",
+    "static/css/2.8edf6c5a.chunk.css.map": "/opendglab-wavegen/static/css/2.8edf6c5a.chunk.css.map",
+    "static/css/main.23608bf0.chunk.css.map": "/opendglab-wavegen/static/css/main.23608bf0.chunk.css.map",
+    "static/js/2.d9dab9ab.chunk.js.LICENSE.txt": "/opendglab-wavegen/static/js/2.d9dab9ab.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.358ad615.js",
+    "static/css/2.8edf6c5a.chunk.css",
+    "static/js/2.d9dab9ab.chunk.js",
+    "static/css/main.23608bf0.chunk.css",
+    "static/js/main.f8fb8274.chunk.js"
+  ]
+}
