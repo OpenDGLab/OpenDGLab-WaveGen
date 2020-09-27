@@ -2,7 +2,7 @@
   "name": "opendglab-wavegen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/opendglab-wavegen/",
+  "homepage": "/OpenDGLab-WaveGen/",
   "dependencies": {
     "@alifd/next": "^1.20.28",
     "@testing-library/jest-dom": "^4.2.4",
