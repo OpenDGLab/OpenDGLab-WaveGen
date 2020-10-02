@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/OpenDGLab-WaveGen/static/css/main.23608bf0.chunk.css",
-    "main.js": "/OpenDGLab-WaveGen/static/js/main.791cf329.chunk.js",
-    "main.js.map": "/OpenDGLab-WaveGen/static/js/main.791cf329.chunk.js.map",
+    "main.js": "/OpenDGLab-WaveGen/static/js/main.7a5a7b74.chunk.js",
+    "main.js.map": "/OpenDGLab-WaveGen/static/js/main.7a5a7b74.chunk.js.map",
     "runtime-main.js": "/OpenDGLab-WaveGen/static/js/runtime-main.00bb9bd0.js",
     "runtime-main.js.map": "/OpenDGLab-WaveGen/static/js/runtime-main.00bb9bd0.js.map",
     "static/css/2.8edf6c5a.chunk.css": "/OpenDGLab-WaveGen/static/css/2.8edf6c5a.chunk.css",
     "static/js/2.e1b2f762.chunk.js": "/OpenDGLab-WaveGen/static/js/2.e1b2f762.chunk.js",
     "static/js/2.e1b2f762.chunk.js.map": "/OpenDGLab-WaveGen/static/js/2.e1b2f762.chunk.js.map",
     "index.html": "/OpenDGLab-WaveGen/index.html",
-    "precache-manifest.f4667e35ede7867032a7367fc5c089d7.js": "/OpenDGLab-WaveGen/precache-manifest.f4667e35ede7867032a7367fc5c089d7.js",
+    "precache-manifest.d1b6f55a2fb24bfd24ad47f228289f38.js": "/OpenDGLab-WaveGen/precache-manifest.d1b6f55a2fb24bfd24ad47f228289f38.js",
     "service-worker.js": "/OpenDGLab-WaveGen/service-worker.js",
     "static/css/2.8edf6c5a.chunk.css.map": "/OpenDGLab-WaveGen/static/css/2.8edf6c5a.chunk.css.map",
     "static/css/main.23608bf0.chunk.css.map": "/OpenDGLab-WaveGen/static/css/main.23608bf0.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.8edf6c5a.chunk.css",
     "static/js/2.e1b2f762.chunk.js",
     "static/css/main.23608bf0.chunk.css",
-    "static/js/main.791cf329.chunk.js"
+    "static/js/main.7a5a7b74.chunk.js"
   ]
 }
