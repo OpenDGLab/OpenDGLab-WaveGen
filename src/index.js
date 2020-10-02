@@ -23,8 +23,8 @@ window.wavegen = {
   l: 5,
   zy: 10,
   point1: {0: 20, 1: 20},
-  point2: {0: 20, 1: 20},
-  point3: {0: 20, 1: 20}
+  point2: {},
+  point3: {}
 };
 ReactDOM.render(
   <React.StrictMode>

@@ -139,6 +139,7 @@ class App extends Component {
   onChangeSection1(checked) {
     if (checked) {
       window.wavegen['jie1'] = 1
+      window.wavegen['point1'] = {}
     } else {
       window.wavegen['a1'] = 0
       window.wavegen['b1'] = 30
@@ -156,6 +157,7 @@ class App extends Component {
   onChangeSection2(checked) {
     if (checked) {
       window.wavegen['jie2'] = 1
+      window.wavegen['point2'] = {}
     } else {
       window.wavegen['a2'] = 0
       window.wavegen['b2'] = 30
@@ -172,14 +174,16 @@ class App extends Component {
   }
   onLValueChange = this.onLValueChange.bind(this)
   onLValueChange(value) {
-    this.setState({ l: value })
-    window.wavegen['l'] = value
+    let v = Math.ceil(value)
+    this.setState({ l: v })
+    window.wavegen['l'] = v
     fireWaveChange()
   }
   onZYValueChange = this.onZYValueChange.bind(this)
   onZYValueChange(value) {
-    this.setState({ zy: value })
-    window.wavegen['zy'] = value
+    let v = Math.ceil(value)
+    this.setState({ zy: v })
+    window.wavegen['zy'] = v
     fireWaveChange()
   }
   render() {
