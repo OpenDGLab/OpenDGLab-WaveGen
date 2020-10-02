@@ -170,11 +170,13 @@ class App extends Component {
       checkedSection2: checked
     })
   }
+  onLValueChange = this.onLValueChange.bind(this)
   onLValueChange(value) {
     this.setState({ l: value })
     window.wavegen['l'] = value
     fireWaveChange()
   }
+  onZYValueChange = this.onZYValueChange.bind(this)
   onZYValueChange(value) {
     this.setState({ zy: value })
     window.wavegen['zy'] = value
