@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4c4a7268e566c1aefa0a842d7a895d5",
+    "revision": "7a71ddea2239dcbbae641858a213afd1",
     "url": "/OpenDGLab-WaveGen/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/OpenDGLab-WaveGen/static/css/2.8edf6c5a.chunk.css"
   },
   {
-    "revision": "c930ee4f7a6f86074af0",
+    "revision": "70ede155bad624ae405e",
     "url": "/OpenDGLab-WaveGen/static/css/main.23608bf0.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/OpenDGLab-WaveGen/static/js/2.e1b2f762.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c930ee4f7a6f86074af0",
-    "url": "/OpenDGLab-WaveGen/static/js/main.f8fb8274.chunk.js"
+    "revision": "70ede155bad624ae405e",
+    "url": "/OpenDGLab-WaveGen/static/js/main.ac81c017.chunk.js"
   },
   {
     "revision": "2abf06416debc060f42e",

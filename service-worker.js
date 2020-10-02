@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/OpenDGLab-WaveGen/precache-manifest.d7c2b6604325fd98a361cd88cd865fff.js"
+  "/OpenDGLab-WaveGen/precache-manifest.be008d9acd5d33036b56e979a2fc36fa.js"
 );
 
 self.addEventListener('message', (event) => {
