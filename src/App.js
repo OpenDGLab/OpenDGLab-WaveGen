@@ -15,7 +15,9 @@ class App extends Component {
     data: [],
     waveString: '',
     checkedSection1: false,
-    checkedSection2: false
+    checkedSection2: false,
+    l: 5,
+    zy: 10
   }
   get data() {
     return {
@@ -168,6 +170,16 @@ class App extends Component {
       checkedSection2: checked
     })
   }
+  onLValueChange(value) {
+    this.setState({ l: value })
+    window.wavegen['l'] = value
+    fireWaveChange()
+  }
+  onZYValueChange(value) {
+    this.setState({ zy: value })
+    window.wavegen['zy'] = value
+    fireWaveChange()
+  }
   render() {
     let buttonCopy = (
       <Clipboard component={Button} onSuccess={this.showCopySuccess} button-href="#" className="odg-btn" data-clipboard-text={this.state.waveString}>
@@ -244,9 +256,9 @@ class App extends Component {
           <Card.Header title="配置"/>
           <Card.Content>
             <p className="white-color">休息时长：</p>
-            <Range defaultValue={5} style={{ width: '100%' }} step={0.001} hasTip={false} max={10} />
+            <Range defaultValue={this.state.l} style={{ width: '100%' }} step={0.001} hasTip={false} max={10} value={this.state.l} onChange={this.onLValueChange}/>
             <p className="white-color">高低频平衡</p>
-            <Range defaultValue={10} style={{ width: '100%' }} step={0.001} hasTip={false} max={20} />
+            <Range defaultValue={this.state.zy} style={{ width: '100%' }} step={0.001} hasTip={false} max={20} value={this.state.zy} onChange={this.onZYValueChange}/>
           </Card.Content>
         </Card>
         </Col>
